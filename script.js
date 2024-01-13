@@ -1,6 +1,6 @@
 let myname=prompt("Enter Your Name?");
 let messwelcome=document.querySelector('#welcome');
-messwelcome.innerHTML=`Welcome! Lets test Your Knowledge About Our lovestory ${myname}🥰`
+messwelcome.innerHTML=`Welcome ${myname}🥰! Lets test Your Knowledge About Our lovestory `
 const questions = [
   {
     question: "When did ADI met RADHU❤️?",
