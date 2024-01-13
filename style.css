@@ -8,8 +8,8 @@
 body{
     background-color:#001e4d;
     animation-name: bganime;
-    animation-duration: 5s;
-    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 @keyframes bganime {
@@ -32,6 +32,23 @@ body{
     color: #001e4d;
     font-weight: 600;
     background-color: #97bed1;
+    animation-name: welcomemess;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes welcomemess {
+    from{
+        margin-top: 2px;
+        color: #4d1200;
+
+    }
+    to{
+        margin-top: 10px;
+        color: #4d002e;
+
+    }
     
 }
 
