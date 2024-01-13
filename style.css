@@ -6,21 +6,9 @@
 }
 
 body{
-    background-color:#001e4d;
-    animation-name: bganime;
-    animation-duration: 8s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
+    background-color:#4fe7a5;
 }
-@keyframes bganime {
-    from{
-        background-color: #4d4000;
-    }
-    to{
-        background-color: #11a5e9;
-    }
     
-}
 #welcome{
    
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -41,15 +29,33 @@ body{
 @keyframes welcomemess {
     from{
         margin-top: 2px;
-        color: #4d1200;
+        color: #4d4700;
 
     }
     to{
         margin-top: 10px;
-        color: #4d002e;
+        color: #2d004d;
 
     }
     
+}
+@keyframes congrats {
+  from{
+    margin-top: 5px;
+
+  }
+  to{
+    margin-top: 300px;
+
+  }
+  
+}
+#congrats{
+  
+  animation-name: congrats;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: 5;
 }
 
 .app{

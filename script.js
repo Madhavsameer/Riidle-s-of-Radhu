@@ -2,7 +2,7 @@ let myname=prompt("Enter Your Name?");
 let messwelcome=document.querySelector('#welcome');
 messwelcome.innerHTML=`Welcome ${myname}🥰! Lets test Your Knowledge About Our lovestory `
 
-//array containing questions and answers
+//array containing questions and answers below
 const questions = [
   {
     question: "When did ADI met RADHU❤️?",
